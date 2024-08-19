@@ -1,8 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+* {
+  box-sizing: border-box;
+}
 
-.app_outside{
+.app_outside {
   font-family: "Moderustic", sans-serif;
-  background-color:#F5F7F8 ;
   min-height: 100vh;
+  background-color:#FAF9F6;
+}
+
+.app_title{
+  background-color: #031831;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+.app_car_collection {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 96%;
+  max-width: 1250px;
+  margin-inline: auto;
+  align-items: center;
+  justify-content: center;
 }
