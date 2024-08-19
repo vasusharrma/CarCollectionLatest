@@ -4,7 +4,7 @@ let arr = [
   {
     id: 0,
     image: images.image1,
-    namee: "BugatiFerrari LaFerrari",
+    namee: "Ferrari LaFerrari",
     rate: "1.5 million",
     desc: "A hybrid marvel from Ferrari, combining a 6.3-liter V12 engine with an electric motor to produce a combined 950 horsepower. The LaFerrari boasts exceptional speed, agility, and advanced technology, representing the pinnacle of Italian engineering.",
   },
