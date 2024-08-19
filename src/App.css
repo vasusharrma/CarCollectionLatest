@@ -4,29 +4,24 @@
   box-sizing: border-box;
 }
 
-.app_outside {
-  font-family: "Moderustic", sans-serif;
+.app_outside{
   min-height: 100vh;
-  background-color:#FAF9F6;
-}
-
-.app_title{
-  background-color: #031831;
-  margin-bottom: 3rem;
-  padding: 1rem;
-  font-size: 2rem;
-  font-weight: bolder;
-  color: white;
-  text-align: center;
-}
-
-.app_car_collection {
   display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-  width: 96%;
-  max-width: 1250px;
-  margin-inline: auto;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+}
+
+.app_btn{
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 300ms ;
+}
+
+.app_btn:hover{
+  background-color: rgb(88, 88, 88);
+  color: white;
 }

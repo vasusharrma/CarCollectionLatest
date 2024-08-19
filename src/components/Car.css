@@ -1,0 +1,26 @@
+.car_outside {
+  font-family: "Moderustic", sans-serif;
+  min-height: 100vh;
+  background-color:#FAF9F6;
+}
+
+.car_title{
+  background-color: #031831;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+.car_car_collection {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 96%;
+  max-width: 1250px;
+  margin-inline: auto;
+  /* align-items: center; */
+  justify-content: center;
+}
