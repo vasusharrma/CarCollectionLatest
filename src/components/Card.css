@@ -52,6 +52,10 @@
   color: white;
 }
 
+#read_more_btn{
+  color: blue;
+  cursor: pointer;
+}
 
 .inactive{
   display: none;
